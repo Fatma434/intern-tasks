@@ -7,7 +7,6 @@ export default function NavBar() {
 
   return (
     <div className="nav-wrapper">
-      {/* Search Bar */}
       {showSearch && (
         <div className="search-container">
           <input 
@@ -19,15 +18,14 @@ export default function NavBar() {
       )}
 
       <nav className="navbar">
-        {/* Left side */}
         <div className="nav-left">
-          {/* Normal links (hidden on small screens) */}
+          
           <div className="menu-links desktop-only">
             <a href="#shop" className="nav-link">SHOP</a>
             <a href="#about" className="nav-link">ABOUT</a>
           </div>
 
-          {/* Hamburger (only on small screens) */}
+          
           <button 
             className="nav-btn hamburger mobile-only" 
             onClick={() => setMenuOpen(!menuOpen)}
@@ -35,7 +33,7 @@ export default function NavBar() {
             <i className="bx bx-menu"></i>
           </button>
 
-          {/* Search button */}
+          
           <button 
             className="nav-btn"
             onClick={() => setShowSearch(!showSearch)}
@@ -44,10 +42,10 @@ export default function NavBar() {
           </button>
         </div>
 
-        {/* Title */}
+      
         <h4 className="nav-title">THE FIGMA STORE</h4>
 
-        {/* Right side */}
+        
         <div className="nav-right">
           <button className="nav-btn">
             <i className="bx bx-user"></i>
