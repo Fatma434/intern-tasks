@@ -1,7 +1,8 @@
 import Footer from "./components/footer/footer";
+import MainHome from "./components/mainSection/MainSection";
 import NavBar from "./components/navBar/navBar";
 import ProductCard from "./components/product/productCard";
-import MainHome from "./components/main";
+
 
 
 export default function Home (){

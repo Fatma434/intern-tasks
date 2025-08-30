@@ -2,39 +2,7 @@
 
   margin: 0;
   padding: 0;
-  
+  scroll-behavior: none;
   font-family:'Poppins', sans-serif;
-}
-/* main in Home */
-.container {
-display: flex;
-background-color: #ffc700;
-height: 300px;
-justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  padding: 2rem;
-  width: 100%;
-}
-.image-wrapper {
-  width: 100%;
-  height: 350px;
-  overflow: hidden;
   
 }
- .one {
-  clip-path: ellipse(40% 50% at 50% 50%);
-}
-
-.two{
-  clip-path: circle(40% at 50% 50%);
-}
-
-
-.image-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit:fill;
-}
-
-/* the badge  */

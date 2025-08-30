@@ -4,7 +4,7 @@
     color: black;
     bottom: 0;
     left: 0;
-  width: 100%;
+
 }
 .footer-container {
   display: flex;
@@ -111,7 +111,7 @@ color: aliceblue;
 .footer-marquee {
   margin-top: 10px;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   text-align: center;
 }
 
